@@ -21,10 +21,14 @@ function divide(int $number, int $by) {
 
 // TODO Compléter le code en fournissent un OU deux zéro en paramètre de la fonction divide !
 try {
+    $a = 0;
+    $b = 0;
     // Corrigez moi ( si je me trompe ! ).
-    $result = divide();
+    $result = divide($a, $b);
     // Afficher la variable $result.
+    echo $result;
 }
-catch(//TODO Complétez moi !) {
+catch(Exception $e) {
     // TODO afficher le message contenu dans $e.
+    echo "Division par/de 0, voulez-vous créer un trou noir ?";
 }
